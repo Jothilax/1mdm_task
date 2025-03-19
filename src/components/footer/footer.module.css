@@ -1,0 +1,68 @@
+.footer{
+    background-color: black;
+    width: 100%;
+    height:70vh;
+    display: flex;
+    flex-direction: row;
+}
+.head{
+    width: 40%;
+    height: 60vh;
+    /* border: 2px solid red; */
+    font-family: 'Poppins';
+    color: white;
+    padding-top: 10vh;
+    padding-left: 10%;
+}
+.hp{
+    line-height: 0.5;
+}
+.subhead{
+    font-weight: bold;
+}
+.platform{
+    width: 20%;
+    height: 60vh;
+    /* border: 2px solid red; */
+    font-family: 'Poppins';
+    color: white;
+    padding-top: 10vh;
+    
+}
+.platform ul li{
+    padding-top: 2vh;
+    list-style-type: none;;
+}
+.pressroom{
+    width: 20%;
+    height: 60vh;
+    /* border: 2px solid red; */
+    font-family: 'Poppins';
+    color: white;
+    padding-top: 10vh;
+}
+.pressroom ul li{
+    padding-top: 2vh;
+    list-style-type: none;;
+}
+.reachus{
+    width: 20%;
+    height: 60vh;
+    /* border: 2px solid red; */
+    font-family: 'Poppins';
+    color: white;
+    padding-top: 10vh;
+}
+.reachus ul li{
+    padding-top: 2vh;
+    list-style-type: none;;
+}
+.copyright{
+    background-color: white;
+    color: black;
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+     /* border: 2px solid red; */
+     padding-top: 3vh;
+}

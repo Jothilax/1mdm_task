@@ -1,0 +1,443 @@
+.seller{
+  width: 100%;
+  height: auto;   
+  /* position: sticky; */
+  top: 10vh;
+  
+}
+
+.sellerbdy{
+  background-image: url(/src/assets/seller/sellerbg.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 100vh;
+  /* border: 2px solid black;  */
+  /* top: 30vh; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; 
+  /* margin-top: 10vh; */
+}
+
+.sellingcontent{
+  width: 40%;
+  /* position: relative;
+  top: 40vh; */
+ padding-top: 10vh;
+  margin-left: 10%;
+  color: black;
+  /* border: 2px solid black; */
+  /* display: flex;
+  flex-direction: row; */
+  
+  
+}
+
+
+.contenth4{
+    padding-bottom: 1rem;
+    font-size: 21.87px;
+   font-style: normal;
+   font-weight: 500 ;
+   line-height: 26.244px;
+
+}
+.contenth1{
+    /* padding: 8px; */
+  font-size: 39px;
+   font-style: normal;
+   font-weight: 600 ;
+   line-height: 46.8px;
+   /* padding-bottom: 3rem; */
+}
+.btndiv{
+  padding-top: 5rem;
+}
+
+.btn{
+    border-radius: 30px;
+    width: 20%;
+    background-color: red;
+    text-align: center;
+    height: 6vh;
+    /* padding: 1vh 1vh; */
+    color: white;
+    border: red ;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 22px;
+    
+}
+.chatbtn{
+    border-radius: 30px;
+    width: 30%;
+    background-color:white;
+    text-align: center;
+    height: 6vh;
+    /* padding: 1vh 1vh; */
+    color: red;
+    border: 2px solid red ;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 22px;
+}
+.chatbtn:hover{
+    background-color:red;
+    color: white;
+    
+}
+.countsec{
+/* border: 2px solid black; */
+width: 30%;
+/* position: relative; */
+/* left: 50%; */
+float: right;
+padding-top: 10vh;
+
+}
+.num{
+  padding-top: 4vh;
+    font-weight: bold;
+    font-size: 24.99px;
+   font-style: normal;
+   font-weight: 500 ;
+   line-height: 20px;
+}
+.nump{
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400 ;
+  line-height: 22.5px;
+  padding-top: 2vh;
+}
+.secsection{
+    width: 100%;
+    height: 100vh;
+   padding-top: 30vh;
+   /* border: 2px solid black; */
+}
+.vhead{
+    text-align: center;
+    font-size: 26.190px;
+    font-style: normal;
+    font-weight: 600 ;
+    line-height: 31.400px; 
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.vediobody{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    /* padding: 20px; */
+    /* border: 2px solid black; */
+}
+.vediocontent{
+    width: 45%;
+    height: 50vh;
+    /* border: 2px solid black; */
+    
+}
+.vedio{
+   margin-top: 5vh;
+   margin-left: 15%;
+    width: 90%;
+    height: 50vh;
+     /* border: 2px solid black; */
+}
+.vediopcontent{
+   /* border: 2px solid black; */
+   margin-left: 10%;
+}
+.vp{
+   
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    font-style: normal;
+    margin-left: 10%;
+    margin-right: 20%;
+    padding-top: 2vh;
+}
+.thirdsec{
+    width: 100%;
+    height: 50vh;
+    /* border: 2px solid black; */
+    background-color: red;
+}
+.thirdhead{
+    /* padding: 15vh 20%; */
+    padding-top: 15vh;
+    padding-left: 20%;
+    padding-right: 20%;
+   padding-bottom: 3vh;
+    font-weight: 500;
+    font-size: 31.150px;
+    color: white;
+    text-align: center;
+   line-height: 37.380px;
+    font-style: normal; 
+}
+.tp{
+    padding-top: 2vh;
+    font-weight: 500;
+    font-style: normal; 
+    line-height: 22.5px;
+    font-size: 18.75px;
+    color:white;
+    text-align: center;
+    padding-right: 32%;
+    padding-left: 32%;
+    
+}
+.fh{
+    padding: 10vh 15%;
+    font-weight: 600;
+    font-size: 26.193px;
+    line-height: 31.430px;
+    font-style: normal; 
+    color: red;
+    text-align: center;
+    
+}
+.appcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+
+  }
+  
+  .sidebar {
+    width: 20%;
+    height: 70vh;
+    padding-top: 10vh;
+    padding-left: 10%;
+
+  }
+  
+  .sidebaritem {
+  
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25.5px;
+    font-style: normal;
+    margin-left: 10%;
+    padding-top: 3vh;
+    cursor: pointer;
+    color: black; 
+
+    /* margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    color: black; */
+    /* transition: color 0.3s; */
+  }
+  
+  /* .sidebaritem.active {
+    color: #e30000;
+    font-weight: 700;
+    border-left: 4px solid #e30000;
+    padding-left: 16px;
+  } */
+  
+  .sidebaritem:hover {
+    color: #e30000;
+  }
+  
+  .listContent{
+    width: 90%;
+    height: 70vh;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    padding-top: 20vh;
+    /* justify-content: space-between; */
+  }
+  .custContent{
+    width: 45%;
+    height: 45vh;
+    /* border: 2px solid black; */
+    padding-left: 10%;
+  }
+  .custContentHead{
+    font-size: 37.5px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 37.85px;
+    color: black; 
+  }
+  .custContentp{
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 22.5px;
+    color: black; 
+  }
+  .custImg{
+    width: 30%;
+    height: 30vh;
+    box-shadow: 10px 10px 10px 10px  rgb(207, 212, 214);
+    margin-left: 5rem;
+    /* border: 2px solid black; */
+    /* padding-left: 5%; */
+   
+  }
+  .listDescImage{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    /* border: 2px solid black; */
+  }
+
+  /* .headerContainer {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+   */
+  .carousel {
+    margin-top: 20vh; /* Adjust based on header height */
+    /* border: 2px solid black; */
+    
+  }
+  .sliderheading{
+    text-align: center;
+    color: #e30000;
+    font-size: 26px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 31px;
+    padding: 2rem;
+  }
+  .swiper {
+    width: 100%;
+    height: 80vh;
+    /* border: 2px solid black; */
+    /* z-index: -1; */
+    /* overflow: hidden; */
+  }
+  
+  .slide {
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .quote {
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 10vh;
+  }
+  
+  .quoteMark {
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    /* line-height: 90px; */
+    color: red;
+  }
+  
+  .image {
+    width: 40%;
+    height: 60vh;
+    border-radius: 2rem;
+    padding-right: 10%;
+  }
+
+  .bussiness{
+    width: 100%;
+    height: 60vh;
+    background-color: #e30000;
+    text-align: center;
+  }
+ .headingBussiness{
+  color: white;
+  font-size: 26px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 32px;
+    padding: 5rem;
+    text-align: center;
+ }
+   
+ .sellbtn{
+  border-radius: 30px;
+  width: 10%;
+  background-color: red;
+  text-align: center;
+  height: 6vh;
+  /* padding: 1vh 1vh; */
+  color: white;
+  border: red ;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 22px;
+  
+}
+.chatusbtn{
+  border-radius: 30px;
+  width: 15%;
+  background-color:white;
+  text-align: center;
+  height: 6vh;
+  /* padding: 1vh 1vh; */
+  color: red;
+  border: 2px solid red ;
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 22px;
+}
+.chatusbtn:hover{
+  background-color:red;
+  color: white;
+  
+}
+.sellbtn:hover{
+  background-color:white;
+  color:red;
+  
+}
+  

@@ -1,0 +1,165 @@
+.about{
+    width: 100%;
+    height: auto;
+    color: black;
+    padding-top: 30vh;
+
+}
+.heading{
+    text-align: center;
+    line-height: 5vh;
+    /* font-family:' Poppins, sans-serif'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 37.5px;
+    line-height: 45px;
+}
+.magazine{
+width: 80%;
+height: 80vh;
+margin-top: 10vh;
+margin-left: 10%;
+/* border: 2px solid black; */
+background-image: url('src/assets/about/image-1.jpg');
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-size: cover;
+/* object-fit: contain; */
+border-radius: 2rem;
+color: white;
+align-content:center;
+}
+
+.magazinep{
+    padding-left: 3%;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+.magazinecont{
+    padding-left: 3%;
+    line-height: 27px;
+    font-weight: 500;
+   font-style: normal;
+   font-size: 22.5px;
+
+}
+
+.products{
+    
+    width: 80%;
+    height: 80vh;
+    margin-top: 20vh;
+    margin-left: 10%;
+    /* border: 2px solid black; */
+    background-image: url('src/assets/about/image-2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    /* object-fit: contain; */
+    border-radius: 2rem;
+    align-content:center;
+    }
+    .productHead{
+        padding: 2%;
+        color:black;
+        font-size: 15px;
+        line-height: 18px;
+        font-weight: 500;
+        font-style: normal;
+    }
+    .productCont{
+        padding: 2%;
+        color:black;
+        font-size: 21.87px;
+        line-height: 26.200px;
+        font-weight: 500;
+        font-style: normal;
+    }
+    .productinfo{
+        padding: 2%;
+        /* padding-top: 2vh; */
+        color:red;
+        font-size: 14px;
+        line-height: 16.8px;
+        font-weight: 500;
+        font-style: normal;
+    }
+    /* .careerSales{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        /* padding-top: 20vh;
+        padding-bottom: 20vh; 
+        border: 2px solid black;
+        
+    } */
+/* 
+    .careerSales {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid black;
+    }
+     */
+
+     .careerSales {
+        padding-top: 20vh;
+        padding-bottom: 20vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        justify-content: center; 
+        width: 100%;
+        min-height: auto; 
+        gap: 5rem; 
+        /* border: 2px solid black; */
+    }
+   
+    .career, .sales {
+        width: auto; 
+        height: 70vh;
+        /* border: 2px solid black; */
+    }
+    .careerImg{
+        /* border: 2px solid black; */
+        margin-bottom: 5vh;
+    }
+    .sellImg{
+       margin-top: 10vh;
+        /* border: 2px solid black; */
+       margin-bottom: 10vh;
+    }
+    .aboutHeading{
+      color: black;
+      font-size:21px;
+      font-weight: 400; 
+      line-height: 31.5px;
+      font-style: normal;
+      padding-top: 2vh;
+      padding-bottom: 1vh;
+    }
+
+    .aboutContent{
+      color: red;
+      font-size:15px;
+      font-weight: 400; 
+      line-height: 22.5px;
+      font-style: normal;
+    }
+    .locationContact{
+        padding-top: 10vh;
+        padding-bottom: 20vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        justify-content: center; 
+        width: 100%;
+        min-height: auto; 
+        gap: 8rem; 
+        /* border: 2px solid black; */
+
+    }
