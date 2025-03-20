@@ -20,7 +20,7 @@ height: 80vh;
 margin-top: 10vh;
 margin-left: 10%;
 /* border: 2px solid black; */
-background-image: url('src/assets/about/image-1.jpg');
+background-image: url('../../assets/about/image-1.jpg');
 background-repeat: no-repeat;
 background-attachment: scroll;
 background-size: cover;
@@ -29,7 +29,11 @@ border-radius: 2rem;
 color: white;
 align-content:center;
 }
-
+/* .about1Img{
+    width: 80%;
+    height: 80vh;
+    object-fit: contain;
+} */
 .magazinep{
     padding-left: 3%;
     padding-bottom: 2vh;
@@ -55,7 +59,7 @@ align-content:center;
     margin-top: 20vh;
     margin-left: 10%;
     /* border: 2px solid black; */
-    background-image: url('src/assets/about/image-2.jpg');
+    background-image: url('../../assets/about/image-2.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;

@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from './about.module.css';
+import about1 from '../../assets/about/image-1.jpg';
+import about2 from '../../assets/about/image-2.jpg';
 import career from '../../assets/about/image-3.png';
 import sell from '../../assets/about/image-4.png';
 import location from '../../assets/about/image-5.png';
@@ -12,7 +14,7 @@ function About() {
             <h1 className={styles.heading}>saving devices accessible</h1>
             <h1 className={styles.heading}>& affordable worldwide.</h1>
             <div className={styles.magazine}>
-                {/* <img src={'src/assets/about/image-1.jpg'}/> */}
+            {/* <img src={about1} alt="about1" className={styles.about1Img}/> */}
                 <p className={styles.magazinep}>IMDM MAGAZINE</p>
                 <h5 className={styles.magazinecont}>Deep dive into the</h5>
                 <h5 className={styles.magazinecont}>engineering & technology</h5>
@@ -22,6 +24,7 @@ function About() {
 
             </div>
             <div className={styles.products}>
+            {/* <img src={about2} alt="about2" className={styles.about1Img}/> */}
             <p className={styles.productHead}>OUR PRODUCTS</p>
             <h5 className={styles.productCont}>Hi, how can we help you?</h5>
             <p className={styles.productinfo}>See what we build</p>

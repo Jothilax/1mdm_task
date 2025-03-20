@@ -2,6 +2,11 @@ import React from 'react';
 import styles from './seller.module.css';
 import {useState,useEffect} from 'react';
 
+import listImg1 from '../../assets/seller/1mdm-product-1.png';
+import listImg2 from '../../assets/seller/1mdm-product-image-4.png';
+import listImg3 from '../../assets/seller/1mdm-product-2.png';
+import listImg4 from '../../assets/seller/1mdm-product-3.png';
+
 import person1 from '../../assets/seller/slider-1.webp';
 import person2 from '../../assets/seller/slider-2.webp';
 import person3 from '../../assets/seller/slider-3.webp';
@@ -27,10 +32,10 @@ const Seller = () => {
     // const [custSupport, setCustSupport] = useState("");
 
     const sections = [
-      { id: 1, title: "Custom storefront", listContent: { heading: "Set up a store that showcases your brand", description: "Differentiate yourself from the competition with a full store dedicated to your products - no coding or design skills necessary!", imageSrc:"/src/assets/seller/1mdm-product-1.png" } },
-      { id: 2, title: "Advertising tools", listContent: { heading: "Increase exposure by up to 120% with a suite of smart advertising tools.", description: "Get your products placed in the right spots to be noticed by the exact audience you are targeting." ,imageSrc:"/src/assets/seller/1mdm-product-image-4.png" } },
-      { id: 3, title: "Data and analytics", listContent: { heading: "Optimize your every move with in-depth data and customer insights", description: "Improve performance with dashboards detailing product exposure, click volume, spend, average cost, store visits, and more.!",imageSrc:"/src/assets/seller/1mdm-product-2.png"  } },
-      { id: 4, title: "Customers support", listContent: { heading: "Know you’re supported throughout your journey", description: "From onboarding help to online chats to local support during business hours and account optimization tips -- we’re here for you" ,imageSrc:"/src/assets/seller/1mdm-product-3.png" } }
+      { id: 1, title: "Custom storefront", listContent: { heading: "Set up a store that showcases your brand", description: "Differentiate yourself from the competition with a full store dedicated to your products - no coding or design skills necessary!", imageSrc:listImg1 } },
+      { id: 2, title: "Advertising tools", listContent: { heading: "Increase exposure by up to 120% with a suite of smart advertising tools.", description: "Get your products placed in the right spots to be noticed by the exact audience you are targeting." ,imageSrc:listImg2 } },
+      { id: 3, title: "Data and analytics", listContent: { heading: "Optimize your every move with in-depth data and customer insights", description: "Improve performance with dashboards detailing product exposure, click volume, spend, average cost, store visits, and more.!",imageSrc:listImg3  } },
+      { id: 4, title: "Customers support", listContent: { heading: "Know you’re supported throughout your journey", description: "From onboarding help to online chats to local support during business hours and account optimization tips -- we’re here for you" ,imageSrc:listImg4 } }
     ];
     
     const [selectedSection, setSelectedSection] = useState(sections[0]);
